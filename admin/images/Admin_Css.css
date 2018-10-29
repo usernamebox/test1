@@ -1,0 +1,105 @@
+body{
+	background:#CAD7F7;
+	SCROLLBAR-FACE-COLOR: #799AE1; 
+	SCROLLBAR-HIGHLIGHT-COLOR: #799AE1; 
+	SCROLLBAR-SHADOW-COLOR: #799AE1; 
+	SCROLLBAR-DARKSHADOW-COLOR: #799AE1; 
+	SCROLLBAR-3DLIGHT-COLOR: #799AE1; 
+	SCROLLBAR-ARROW-COLOR: #FFFFFF;
+	SCROLLBAR-TRACK-COLOR: #AABFEC;
+	font-size: 12px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000000;
+	text-decoration: none;
+	font-family: Verdana;
+}
+
+font.alert{color:#FF0000;}
+font.blue{color:#0000FF}
+
+.table {
+	BORDER-RIGHT: #183789 1px solid; 
+	BORDER-TOP: #183789 1px solid; 
+	BORDER-LEFT: #183789 1px solid; 
+	WIDTH: 98%; 
+	BORDER-BOTTOM: #183789 1px solid; 
+	BACKGROUND-COLOR: #ffffff;
+}
+
+td.title{        /*表格大标题*/
+	background-image:url(admin_bg_1.gif);
+	WIDTH: 100%;
+	height:25px;
+	border-color:#FFFFFF;	
+	color:#FFFFFF;
+	text-align:center;
+	font-size: 12px;
+	font-style: normal;
+	font-weight:bold;
+}
+
+td.titles{        /*表格大标题，文字居左*/
+	background-image:url(admin_bg_1.gif);
+	WIDTH: 100%;
+	height:25px;
+	border-color:#FFFFFF;	
+	color:#FFFFFF;
+	text-align:lift;
+	font-size: 12px;
+	font-style: normal;
+	font-weight:bold;
+}
+
+td.title2{        /*表格副标题*/
+	background-image:url(admin_bg_2.gif);
+	border-color:#FFFFFF;
+	height:25px;
+}
+
+td.title3{        /*表格小标题*/
+	background-color: #E4EDF9;
+	border-color:#FFFFFF;
+	height:25px;
+}
+tr{
+	font-size: 12px;
+	color: #000000; 
+	line-height: 18px;
+	border-color:#FFFFFF;
+}
+
+td {
+	FONT-SIZE: 12px;
+}
+.copyright {
+	PADDING-RIGHT: 1px; BORDER-TOP: #6595d6 1px dashed; PADDING-LEFT: 1px; PADDING-BOTTOM: 1px; FONT: 11px verdana,arial,helvetica,sans-serif; COLOR: #4455aa; PADDING-TOP: 1px; TEXT-DECORATION: none
+}
+
+TD.td {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; BACKGROUND: #F1F3F5; PADDING-BOTTOM: 3px; PADDING-TOP: 3px
+}
+
+INPUT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+TEXTAREA {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+SELECT {
+	BORDER-TOP-WIDTH: 1px; BORDER-LEFT-WIDTH: 1px; FONT-SIZE: 12px; BORDER-BOTTOM-WIDTH: 1px; BORDER-RIGHT-WIDTH: 1px
+}
+
+.button {
+	font: bold 11px tahoma,verdana,arial,helvetica,sans-serif;
+}
+
+A:link{COLOR: #000000; TEXT-DECORATION: none}
+A:visited{COLOR: #000000; TEXT-DECORATION: none}
+a:hover{color:#428EFF;text-decoration:underline;}
+.login_lostfocus { border: 1px #333333 Dashed; background-color: #ffffff; font-size: 12px; font-family: Arial; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50)}
+.lostfocus { border: 1px #000000 solid; background-color: #ffffff; font-size: 12px; font-family: Arial;}
+.getfocus { border: 1px #08246B solid;background-color: #ffffff; background-image:url(input.gif); font-family: Arial; font-size: 12px; }
